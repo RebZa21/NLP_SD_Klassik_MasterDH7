@@ -14,7 +14,7 @@ Lo scopo del progetto è verificare se un classificatore, guardando **solo il le
 
 ```
 nlp-sturm-und-drang-klassik/
-├── notebooks/
+├── notebook/
 │   └── NLP_SuD_Klassik.ipynb        # Notebook con gli output salvati
 ├── corpus/
 │   ├── die-raeuber.epub
@@ -31,7 +31,7 @@ nlp-sturm-und-drang-klassik/
 
 | Cartella | Descrizione |
 |---|---|
-| `notebooks/` | Notebook Jupyter con il codice di analisi e gli output già salvati |
+| `notebook/` | Notebook Jupyter con il codice di analisi e gli output già salvati |
 | `corpus/` | Testi in formato EPUB (Schiller, Goethe, Lenz) |
 | `docs/` | Relazione finale in PDF |
 
