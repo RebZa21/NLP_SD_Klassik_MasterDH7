@@ -3,7 +3,12 @@ Esercitazione NLP MasterDH7 2026-2027 UniMI
 
 # NLP su Sturm und Drang e Classicismo di Weimar
 
-Analisi computazionale di un corpus di drammi dello *Sturm und Drang* e del Classicismo tedesco.
+## Scopo del progetto
+
+Lo scopo del progetto è verificare se un classificatore, guardando **solo il lessico** di brevi porzioni di testo (finestre di 200 token), riesce a distinguere i drammi tedeschi dello *Sturm und Drang* da quelli della *Klassik* di Weimar.
+
+- **Corpus:** sei drammi di Goethe, Schiller e Lenz (tre SD, tre Klassik), etichettati secondo la periodizzazione di de Boor/Newald. Goethe e Schiller compaiono in entrambe le classi, quindi il modello non può limitarsi a riconoscere l'autore.
+- **Metodo:** TF-IDF e word2vec con regressione logistica, validati con leave-one-work-out (a turno ogni opera è tenuta fuori dall'addestramento).
 
 ## Struttura del progetto
 
